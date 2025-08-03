@@ -76,6 +76,44 @@
   </section><!-- End Hero -->
 
   <main id="main">
+        <div class="music-container"> 
+      <!-- 
+          Class play is added here to add rotation to album image,
+           So the play class need to be appear when play button is pressed.
+      -->
+           <p style="margin-right: auto;">Please play the songs while scrolling down.<br/>If you are interested :)</p>
+      <div class="music-info">
+          <!--
+              This div section will hold the information on
+              music description 
+          -->
+          <h4 id="music_title">Press next song</h4>
+          <div class="progress-container">
+              <div class="progress"></div> <!-- This will be filled dynamically by js -->
+          </div>
+      </div>
+
+
+      <!-- 곡 넣기 -->
+      <audio src="" id="audio"></audio>
+      <div class="album-container">
+          <img src="./assets/img/Press next song.jpeg" alt="music-album" id="album">
+      </div>
+
+      <div class="navigation">
+          <button id="prev" class="action-btn">
+              <i class="fas fa-backward"></i> <!-- Font awesome class for icon -->
+          </button>
+          <button id="play" class="action-btn action-btn-big">
+              <i class="fas fa-play"></i> <!-- Font awesome class for icon -->
+          </button>
+          <button id="next" class="action-btn">
+              <i class="fas fa-forward"></i> <!-- Font awesome class for icon -->
+          </button>
+      </div>
+  </div>
+    </section><!-- End About Section -->
+
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
@@ -112,7 +150,8 @@
             <h4>Life at the University</h4>
             <ul>
               <li>I had a long journey in digesting fundamentals in computer/external devices' architectures and mechanisms, programming, data science and efficient algorithms. Throughout the progress, I noticed that my personality and skills are developed and shaped by a mix of analytical behaviour, self-discipline and contributions of important people in my network.</li>
-              <li>Besides studying, me and my friends at the university met a few times at QFactory to play a band.</li>
+              <li>Besides studying, me and my friends at the university met a few times at QFactory to play a band during my bachelors.</li>
+              <li>I have a strong personal attachment to my life at Eindhoven and the school is not ended yet. I had people support and I am aiming for success in 2027.</li>
             </ul>
             <h4>Personal goal</h4>
             <ul>
@@ -124,43 +163,6 @@
 
       </div>
 
-      
-    <div class="music-container"> 
-      <!-- 
-          Class play is added here to add rotation to album image,
-           So the play class need to be appear when play button is pressed.
-      -->
-      <div class="music-info">
-          <!--
-              This div section will hold the information on
-              music description 
-          -->
-          <h4 id="music_title">Press next song</h4>
-          <div class="progress-container">
-              <div class="progress"></div> <!-- This will be filled dynamically by js -->
-          </div>
-      </div>
-
-
-      <!-- 곡 넣기 -->
-      <audio src="" id="audio"></audio>
-      <div class="album-container">
-          <img src="./assets/img/Press next song.jpeg" alt="music-album" id="album">
-      </div>
-
-      <div class="navigation">
-          <button id="prev" class="action-btn">
-              <i class="fas fa-backward"></i> <!-- Font awesome class for icon -->
-          </button>
-          <button id="play" class="action-btn action-btn-big">
-              <i class="fas fa-play"></i> <!-- Font awesome class for icon -->
-          </button>
-          <button id="next" class="action-btn">
-              <i class="fas fa-forward"></i> <!-- Font awesome class for icon -->
-          </button>
-      </div>
-  </div>
-    </section><!-- End About Section -->
 
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
@@ -275,20 +277,19 @@
           <div class="col-lg-6" data-aos="fade-up">
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
-              <h4>Computer Science Engineering: Architecture and systems track</h4>
+              <h4>Computer Science and Engineering MSC.</h4>
               <p><em>Technische Universiteit Eindhoven</em></p>
               <ul>
-                <li>Starting Sept 2024</li>
-                <li>Interested in software engineering: Architecture and systems track after the latest work experience</li>
-                </ul>
+                <li>Interested in software engineering above systems thus pursued in architecture and systems track.</li>
+              </ul>
             </div>
             <div class="resume-item">
-              <h4>Information Studies: Data Science track Msc.</h4>
+              <h4>Information Studies: Data Science Msc.</h4>
               <p><em>Universiteit van Amsterdam</em></p>
               <ul>
                 <li>Fundamental Data Science</li>
                 <li>Statistics, Simulation and Optimisation</li>
-                <li>Paused for Internship and for pursuing a technical background</li>
+                <li>Paused for Internship and for pursuing for software engineering background</li>
               </ul>
             </div>
             <div class="resume-item">
@@ -338,10 +339,10 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Work Experiences</h3>
             <div class="resume-item">
-              <h4>Computer science Internship (Automation project at ASML R&R department)</h4>
+              <h4>Computer science Internship (IT Automation project at ASML R&R department)</h4>
               <h5>October 2023 - July 2024</h5>
               <ul>
-                <li>Under great supervision and teachings, using Python3.11 and its software packages (e.g. PyRfc, openpyxl, and PyQt6), I created a software executable EXE file that automates extracting customed data from CSAP.</li>
+                <li>Under a professional mentorship, using Python3.11 and its software packages (e.g. PyRfc, openpyxl, and PyQt6), I created a software executable EXE file that automates extracting custom data from CSAP.</li>
                 <li>After the learnings, my passion led towards specializing in software engineering (systems) with ML/DL solutions.</li>
               </ul>
             </div>

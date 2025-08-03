@@ -14,7 +14,7 @@ const album = document.querySelector("#album");
 
 // Song titles
 const songs = [
-    'Press next song',
+    // 'Press next song',
     'comfy_relationship', 'connotation_of_love', 'overtaken', 'Kerning_city_swamp'
 ]
 
